@@ -29,7 +29,7 @@ https://github.com/
 ## **3. Create a GitHub Repository** 📁
 
 After signing in to GitHub:  
-- Click on the **+** icon (top right).  
+- Click on the **`+`** icon (top right).  
 - Select **New Repository**.  
 - Give it a name (e.g., `my-project`).  
 - Click **Create Repository**.
@@ -47,14 +47,14 @@ After signing in to GitHub:
 
 - Open the folder in **Visual Studio Code**.  
 - Open the **Terminal** in VS Code (`Ctrl + J`).  
-- Copy & paste the GitHub-provided command lines (after you create the repository) **one by one** into the terminal.  
+- **Copy** & **paste** the GitHub-provided command lines (after you create the repository) **`one-by-one`** into the terminal.  
   - Example:
     ```bash
     git init
     git add .
     git commit -m "first commit"
     git branch -M main
-    git remote add origin https://github.com/yourusername/your-repo-name.git
+    git remote add origin https://github.com/your_username/your_repository_name.git
     git push -u origin main
     ```
 
@@ -62,11 +62,11 @@ After signing in to GitHub:
 
 ## **6. One-Time Git Configuration** ⚙️
 
-- The **first time** you run Git commands, it may show an error and prompt for your GitHub **Username** and **Email**.  
+- The **first time** you run Git commands, it may show an error and ask for your GitHub **Username** and **Email**.  
   - Enter the same credentials you used to create the GitHub account.
 
 ```bash
-git config --global user.name "Your GitHub Username"
+git config --global user.name "Your_GitHub_Username"
 ```
 ```bash
 git config --global user.email "youremail@example.com"
