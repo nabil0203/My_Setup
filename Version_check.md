@@ -1,4 +1,4 @@
-# ✅ Version Check for Installed Software
+# ✅ Version Check for Installed Software 🛠️
 
 Before proceeding with any development setup, it's important to check whether the required software is already installed on your system.
 
@@ -6,32 +6,36 @@ Before proceeding with any development setup, it's important to check whether th
 
 ## 🖥️ Open your PC Terminal
 
-You can use **Command Prompt**, **PowerShell**, or **Git Bash**.
+You can use **Command Prompt** 🖱️, **PowerShell** ⚡, or **Git Bash** 🐱‍💻.
 
 Then paste the following commands one by one:
 
 ---
 
-### 🔹 MinGW (C/C++ Compiler)
+### 🔹 MinGW (C/C++ Compiler) 👨‍💻
 ```bash
 g++ --version
 ```
-### 🔹 JAVA
+---
+### 🔹 JAVA☕
 ```bash
 java --version
 ```
-### 🔹 Python
+---
+### 🔹 Python🐍
 ```bash
 python --version
 ```
+---
 
-### 🔹 PHP
+### 🔹 PHP🐘
 ```bash
 php --version
 ```
+---
 
 
-### 🔹 Git Bash
+### 🔹 Git Bash🌲
 ```bash
 git --version
 ```

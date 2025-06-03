@@ -1,76 +1,72 @@
-# C/C++ Setup for Visual Studio Code
+# 🚀 C/C++ Setup for Visual Studio Code
 
-This guide will walk you through setting up C/C++ for use with Visual Studio Code. Follow each instruction carefully.
+This guide will walk you through setting up C/C++ for use with Visual Studio Code. Follow each instruction carefully. ✅
 
 ---
 
-
-## **1. Install `MinGW` Compiler:**
+## 🛠️ 1. Install `MinGW` Compiler:
 
 Download and Install the **MinGW** compiler from any of the following links:
 
-* ➤ [Link 1](https://drive.google.com/file/d/1aC9xQL2J1JSMT-ChEd2DP4OR4es5FSjq/view)
-* ➤ [Link 2](https://drive.google.com/file/d/1KqDL7maNwhqBF34HFAKhCKnRDwepEqn7/view)
-* ➤ [Link 3](https://sourceforge.net/projects/mingw-w64/)
+* 🔗 [Link 1](https://drive.google.com/file/d/1aC9xQL2J1JSMT-ChEd2DP4OR4es5FSjq/view)
+* 🔗 [Link 2](https://drive.google.com/file/d/1KqDL7maNwhqBF34HFAKhCKnRDwepEqn7/view)
+* 🔗 [Link 3](https://sourceforge.net/projects/mingw-w64/)
 
-After installation, proceed to the next step.
+After installation, proceed to the next step. ⏭️
 
 ---
 
-## **2. Copy Path:**
+## 📁 2. Copy Path:
 
 * After installing MinGW, go to the **folder** where it was installed on your PC.
 * Open the `bin` folder within the MinGW folder
-  * (like-> ***C:\MinGW\bin***).
-* `Copy the path` of this **bin** folder.
 
+  * (Example: ***C:\MinGW\bin***).
+*  `Copy the path` of this **bin** folder.
 
+---
 
-## **3. Set Environment Variables:**
+## ⚙️ 3. Set Environment Variables:
+
 * Open the Windows search box (Windows key + S).
 * Search for `edit the system environment variables` and **open** it.
 * Click the `Environment Variables` button.
 * In the **"System variables"** section, double-click on the **`Path`**.
 * Click **`New`**.
 * **`Paste`** the path you copied earlier (the path to the MinGW `bin` folder).
-* Click **`OK`** on all open windows to save the changes.
-
-
----
-
-
-## **4. Install Git Bash:**
-
-* Download the Git Bash *`standalone installer`* from the following link:
-```
-    https://git-scm.com/downloads
-```
-* Run the downloaded installer and follow the on-screen instructions to install Git Bash on your system.
-
+* Click **`OK`** on all open windows to save the changes. 💾
 
 ---
 
+## 🧰 4. Install Git Bash:
 
-## **5. Install VS Code Extensions:**
+* Download Git Bash *`standalone installer`* from:
 
-* Open **Visual Studio Code**.
+```
+https://git-scm.com/downloads
+```
+
+* Run the installer and follow the on-screen instructions. ✅
+
+---
+
+## 🧩 5. Install VS Code Extensions:
+
+*  Open **Visual Studio Code**.
 * Go to `Extensions` (Ctrl+Shift+X)
-* **Search** for the following extensions and install then one-by-one:
+*  **Search** for the following extensions and install them:
     * `C/C++ Extension Pack`
     * `Code Runner`
 
-
 ---
 
-
-## **6. Code-Runner extension setup:**
+## 🔧 6. Code-Runner Extension Setup:
 
 * Open the `Code-Runner` extension in VS Code.
-    <!-- * Click on the "Manage" icon (gear icon) in the bottom-left corner of VS Code. -->
-* Go to the "**Settings**" of code-runner extension.
-* Scroll a little & search for **"code-runner: executor map**"
+* Go to the **"Settings"** of code-runner.
+* Search for **"code-runner: executor map"**
 * Click `Edit in settings.json`.
-* Here, **Copy** and **Paste** the following JSON & Save it:
+* Copy and Paste the provided JSON and Save it. 💾
 
 ```json
 {
@@ -150,8 +146,6 @@ After installation, proceed to the next step.
   },
 
 
-
-
   "terminal.integrated.focusAfterRun": "terminal",
   "editor.mouseWheelZoom": true,
   "terminal.integrated.mouseWheelZoom": true,
@@ -198,10 +192,8 @@ After installation, proceed to the next step.
 }
 ```
 
-
 ---
 
-### ✅ C/C++ is now ready to use with VS Code!
+### 🎉 ✅ C/C++ is now ready to use with VS Code!
 
-
----
+----
