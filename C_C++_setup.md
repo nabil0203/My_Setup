@@ -4,7 +4,7 @@ This guide will walk you through setting up C/C++ for use with Visual Studio Cod
 
 ---
 
-## 🛠️ 1. Install `MinGW` Compiler:
+## **1. Install `MinGW` Compiler:** 🛠️
 
 Download and Install the **MinGW** compiler from any of the following links:
 
@@ -16,7 +16,7 @@ After installation, proceed to the next step. ⏭️
 
 ---
 
-## 📁 2. Copy Path:
+## **2. Copy Path:** 📁 
 
 * After installing MinGW, go to the **folder** where it was installed on your PC.
 * Open the `bin` folder within the MinGW folder
@@ -26,7 +26,7 @@ After installation, proceed to the next step. ⏭️
 
 ---
 
-## ⚙️ 3. Set Environment Variables:
+## **3. Set Environment Variables:** ⚙️
 
 * Open the Windows search box (Windows key + S).
 * Search for `edit the system environment variables` and **open** it.
@@ -38,7 +38,7 @@ After installation, proceed to the next step. ⏭️
 
 ---
 
-## 🧰 4. Install Git Bash:
+## **4. Install Git Bash:** 🧰
 
 * Download Git Bash *`standalone installer`* from:
 
@@ -50,7 +50,7 @@ https://git-scm.com/downloads
 
 ---
 
-## 🧩 5. Install VS Code Extensions:
+## **5. Install VS Code Extensions:** 🧩
 
 *  Open **Visual Studio Code**.
 * Go to `Extensions` (Ctrl+Shift+X)
@@ -60,7 +60,7 @@ https://git-scm.com/downloads
 
 ---
 
-## 🔧 6. Code-Runner Extension Setup:
+## 6. Code-Runner Extension Setup: 🔧
 
 * Open the `Code-Runner` extension in VS Code.
 * Go to the **"Settings"** of code-runner.
@@ -194,6 +194,6 @@ https://git-scm.com/downloads
 
 ---
 
-### 🎉 ✅ C/C++ is now ready to use with VS Code!
+### 🎉✅ C/C++ is now ready to use with VS Code!
 
 ----
