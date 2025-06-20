@@ -4,7 +4,7 @@ This guide will walk you through setting up C/C++ for use with Visual Studio Cod
 
 ---
 
-## **1. Install `MinGW` Compiler:** 🛠️
+## **1. Download `MinGW` Compiler:** 🛠️
 
 Download and Install the **MinGW** compiler from any of the following links:
 
@@ -12,17 +12,16 @@ Download and Install the **MinGW** compiler from any of the following links:
 * 🔗 [Link 2](https://drive.google.com/file/d/1KqDL7maNwhqBF34HFAKhCKnRDwepEqn7/view)
 * 🔗 [Link 3](https://sourceforge.net/projects/mingw-w64/)
 
-After installation, proceed to the next step. ⏭️
+After Downloading, proceed to the next step. ⏭️
 
 ---
 
 ## **2. Copy Path:** 📁 
 
-* After installing MinGW, go to the **folder** where it was installed on your PC.
-* Open the `bin` folder within the MinGW folder
-
+- After downloading MinGW, go to the **folder** where it was installed on your PC.
+- Open the `bin` folder within the MinGW folder
   * (Example: ***C:\MinGW\bin***).
-*  `Copy the path` of this **bin** folder.
+- `Copy the path` of this **bin** folder.
 
 ---
 
@@ -31,10 +30,11 @@ After installation, proceed to the next step. ⏭️
 * Open the Windows search box (Windows key + S).
 * Search for `edit the system environment variables` and **open** it.
 * Click the `Environment Variables` button.
-* In the **"System variables"** section, double-click on the **`Path`**.
+* In the **"System variables"** section, **double-click** on the **`Path`**.
 * Click **`New`**.
 * **`Paste`** the path you copied earlier (the path to the MinGW `bin` folder).
 * Click **`OK`** on all open windows to save the changes. 💾
+
 
 ---
 

@@ -12,7 +12,7 @@ Then paste the following commands one by one:
 
 ---
 
-### 🔹 MinGW (C/C++ Compiler) 👨‍💻
+### 🔹 MinGW (C/C++ Compiler)👨‍💻
 ```bash
 g++ --version
 ```
@@ -20,6 +20,11 @@ g++ --version
 ### 🔹 JAVA☕
 ```bash
 java --version
+```
+---
+### 🔹 Node JS (JavaScript)💻
+```bash
+node --version
 ```
 ---
 ### 🔹 Python🐍
