@@ -6,13 +6,13 @@ This guide will walk you through setting up C/C++ for use with Visual Studio Cod
 
 ## **1. Download `MinGW` Compiler:** 🛠️
 
-Download and Install the **MinGW** compiler from any of the following links:
+Download the **MinGW** compiler from any of the following links:
 
 * 🔗 [Link 1](https://drive.google.com/file/d/1aC9xQL2J1JSMT-ChEd2DP4OR4es5FSjq/view)
 * 🔗 [Link 2](https://drive.google.com/file/d/1KqDL7maNwhqBF34HFAKhCKnRDwepEqn7/view)
 * 🔗 [Link 3](https://sourceforge.net/projects/mingw-w64/)
 
-After Downloading, proceed to the next step. ⏭️
+After downloading, proceed to the next step. ⏭️
 
 ---
 
