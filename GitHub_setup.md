@@ -4,7 +4,7 @@ Follow these steps to set up Git and connect your project with GitHub using Visu
 
 ---
 
-## **1. Download Git** ⬇️
+## **1️⃣ Download Git** ⬇️
 
 - Visit the official Git website:  
  
@@ -15,7 +15,7 @@ https://git-scm.com/downloads
 
 ---
 
-## **2. Create a GitHub Account** 📝
+## **2️⃣ Create a GitHub Account** 📝
 
 - Visit:  
 
@@ -26,7 +26,7 @@ https://github.com/
 
 ---
 
-## **3. Create a GitHub Repository** 📁
+## **3️⃣ Create a GitHub Repository** 📁
 
 After signing in to GitHub:  
 - Click on the **`+`** icon (top right).  
@@ -36,14 +36,14 @@ After signing in to GitHub:
 
 ---
 
-## **4. Create a Local Project Folder** 📂
+## **4️⃣ Create a Local Project Folder** 📂
 
 - On your PC, create a folder with the **same name** as your GitHub repository.  
   - Example: If your repository is `my-project`, then your folder should also be `my-project`.
 
 ---
 
-## **5. Connect VS Code with GitHub Repository** 🔗
+## **5️⃣ Connect VS Code with GitHub Repository** 🔗
 
 - Open the folder in **Visual Studio Code**.  
 - Open the **Terminal** in VS Code (`Ctrl + J`).  
@@ -60,7 +60,7 @@ After signing in to GitHub:
 
 ---
 
-## **6. One-Time Git Configuration** ⚙️
+## **6️⃣ One-Time Git Configuration** ⚙️
 
 - The **first time** you run Git commands, it may show an error and ask for your GitHub **Username** and **Email**.  
   - Enter the same credentials you used to create the GitHub account.

@@ -3,7 +3,7 @@
 
 This guide will walk you through setting up Python for use with Visual Studio Code. Follow each instruction carefully.
 
-## **1. Install Python:** ⬇️
+## **1️⃣ Install Python:** ⬇️
 
 * Open any web browser. 🌐  
 * Search for **`Python Download`**  
@@ -21,7 +21,7 @@ https://www.python.org/downloads/
 
 ---
 
-## **2. Install Python Extension in VS Code:** 🔧
+## **2️⃣ Install Python Extension in VS Code:** 🔧
 
 * Open **Visual Studio Code**.  
 * Go to the Extensions by clicking on the square icon on the left sidebar. 🧩  

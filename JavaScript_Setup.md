@@ -2,7 +2,7 @@
 
 This guide will walk you through setting up JavaScript for use with Visual Studio Code. Follow each instruction carefully.
 
-## **1. Download Node JS:** ⬇️
+## **1️⃣ Download Node JS:** ⬇️
 
 * Open any web browser. 🌐  
 * Search for **`Node JS`**  
@@ -19,7 +19,7 @@ https://nodejs.org/en/download
 
 ---
 
-## **2. Install Node JS:** 🛠️
+## **2️⃣ Install Node JS:** 🛠️
 
 * Run the downloaded installer and follow the on-screen instructions to install **Node.js** on your system.  
 * **`Very Important:`**  

@@ -2,7 +2,7 @@
 
 This guide will walk you through setting up JAVA for use with Visual Studio Code. Follow each instruction carefully.
 
-## **1. Install Coding Pack for Java:** 🛠️
+## **1️⃣ Install Coding Pack for Java:** 🛠️
 
 * Open any web browser. 🌐  
 * Search for **`Coding pack for Java VS code`**  

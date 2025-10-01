@@ -1,7 +1,7 @@
 # PHP Setup for Visual Studio Code 🐘💻
 This guide will walk you through setting up PHP for use with Visual Studio Code. Follow each instruction carefully.
 
-## 1. Download PHP ⬇️
+## 1️⃣ Download PHP ⬇️
 
 - Visit the following link:  
 
@@ -14,7 +14,7 @@ https://www.php.net/downloads
 
 ---
 
-## 2. Extract and Rename 📂✏️
+## 2️⃣ Extract and Rename 📂✏️
 
 - Unzip the downloaded file.  
 - Rename the unzipped folder to: `php-8.3.13`  
@@ -24,7 +24,7 @@ https://www.php.net/downloads
 
 ---
 
-## 3. Set Environment Variable ⚙️
+## 3️⃣ Set Environment Variable ⚙️
 
 * Open the Windows search box (Windows key + S). 🔍  
 * Search for `edit the system environment variables` and **open** it.  
@@ -34,7 +34,7 @@ https://www.php.net/downloads
 * **`Paste`** the path you copied earlier (the path to the PHP folder).  
 * Click **`OK`** on all open windows to save the changes. ✅
 
-## 4. Setup in VS Code 🔧
+## 4️⃣ Setup in VS Code 🔧
 
 - Open **Visual Studio Code**  
 - Go to `Extensions` (Ctrl+Shift+X)  

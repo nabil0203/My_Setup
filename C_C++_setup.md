@@ -4,7 +4,7 @@ This guide will walk you through setting up C/C++ for use with Visual Studio Cod
 
 ---
 
-## **1. Download `MinGW` Compiler:** 🛠️
+## **1️⃣ Download `MinGW` Compiler:** 🛠️
 
 Download the **MinGW** compiler from any of the following links:
 
@@ -16,7 +16,7 @@ After downloading, proceed to the next step. ⏭️
 
 ---
 
-## **2. Copy Path:** 📁 
+## **2️⃣ Copy Path:** 📁 
 
 - After downloading MinGW, go to the **folder** where it was installed on your PC.
 - Open the `bin` folder within the MinGW folder
@@ -25,7 +25,7 @@ After downloading, proceed to the next step. ⏭️
 
 ---
 
-## **3. Set Environment Variables:** ⚙️
+## **3️⃣ Set Environment Variables:** ⚙️
 
 * Open the Windows search box (Windows key + S).
 * Search for `edit the system environment variables` and **open** it.
@@ -38,7 +38,7 @@ After downloading, proceed to the next step. ⏭️
 
 ---
 
-## **4. Install Git Bash:** 🧰
+## **4️⃣ Install Git Bash:** 🧰
 
 * Download Git Bash *`standalone installer`* from:
 
@@ -50,7 +50,7 @@ https://git-scm.com/downloads
 
 ---
 
-## **5. Install VS Code Extensions:** 🧩
+## **5️⃣ Install VS Code Extensions:** 🧩
 
 *  Open **Visual Studio Code**.
 * Go to `Extensions` (Ctrl+Shift+X)
@@ -60,7 +60,7 @@ https://git-scm.com/downloads
 
 ---
 
-## 6. Code-Runner Extension Setup: 🔧
+## **6️⃣ Code-Runner Extension Setup:** 🔧
 
 * Open the `Code-Runner` extension in VS Code.
 * Go to the **"Settings"** of code-runner.
@@ -79,10 +79,7 @@ https://git-scm.com/downloads
   "code-runner.executorMapByGlob": {
     "pom.xml": "cd $dir && mvn clean package"
   },
-
   "code-runner.executorMap": {
-
-  
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "zig": "zig run",
@@ -136,20 +133,21 @@ https://git-scm.com/downloads
 
 
     // ~~ Output in Terminal for C/C++
-    // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
-    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
 
 
     // ~~Output in Text file for C/C++
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && timeout 15s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
-    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && timeout 15s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
+    // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && timeout 15s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
+    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && timeout 15s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
   },
 
 
+  
   "terminal.integrated.focusAfterRun": "terminal",
   "editor.mouseWheelZoom": true,
-  "terminal.integrated.mouseWheelZoom": true,
   // "editor.wordWrap": "on",
+  "terminal.integrated.mouseWheelZoom": true,
   "terminal.integrated.cursorBlinking": true,
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -170,6 +168,10 @@ https://git-scm.com/downloads
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 100,
   "editor.minimap.renderCharacters": false,
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "jinja-html": "html"
+  },
 
   
   "workbench.editorAssociations": {
@@ -181,19 +183,21 @@ https://git-scm.com/downloads
   "java.project.referencedLibraries": [
     "lib/mysql-connector-j-9.1.0.jar"
   ],
-  "settingsSync.ignoredExtensions": [
-    
-  ],
+  "settingsSync.ignoredExtensions": [],
   "workbench.editor.empty.hint": "hidden",
-  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.fontSize": 19,
+  "database-client.autoSync": true,
+  "json.schemas": [
   
+  ],
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  "terminal.integrated.fontSize": 15,
 }
 ```
 
 ---
 
-### 🎉✅ C/C++ is now ready to use with VS Code!
+## ✅ C/C++ is now ready to use with VS Code!🎉
 
 ----
