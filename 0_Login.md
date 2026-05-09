@@ -1,4 +1,4 @@
-# 🔐Login with Microsoft Account in VS Code 
+# 🔐Login with GitHub Account in VS Code 
 
 ---
 
